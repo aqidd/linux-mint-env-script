@@ -80,6 +80,16 @@ sudo apt-get install git-cola
 sudo apt-get install zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
+# install teamviewer
+wget https://dl.tvcdn.de/download/version_12x/teamviewer_12.0.85001_i386.deb
+sudo dpkg -i teamviewer_12.0.85001_i386.deb
+
+# install adb
+sudo apt-get install android-tools-adb
+
+# install shutter
+sudo apt-get install shutter
+
 # making sure that all changes are done
 reboot
 
